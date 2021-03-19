@@ -3,7 +3,7 @@
   <div class="wrapper">
     <section class="form signup">              
       <header><h1>BIBLIOTHEQUE</h1></header>
-      <form action="treatment/inscription.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+      <form action="" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="error-text">this is an error text</div>
         <div class="name-details">
           <div class="field input">
@@ -40,6 +40,7 @@
         </div>
     </section>
   </div>
-
+  <script src="pass-show-hide.js"></script>
+  <script src="inscription.js"></script>
 </body>
 </html>

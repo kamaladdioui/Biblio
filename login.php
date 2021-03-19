@@ -3,13 +3,10 @@
   <div class="wrapper">
     <section class="form login">
       <header><h1>BIBLIOTHEQUE</h1></header>
-<<<<<<< HEAD
- 
+  
       <form action="" method="POST" enctype="multipart/form-data" autocomplete="off"> 
-=======
-      <form action="treatment/identify.php" method="POST" enctype="multipart/form-data" autocomplete="off">
->>>>>>> 5f23df9904a7614814c2b381a608f40c52bd7540
-        <div class="error-text">this is an error text</div>
+       <form action="treatment/identify.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+         <div class="error-text">this is an error text</div>
         <div class="field input">
           <label>Adress Email</label>
           <input type="text" name="email" placeholder="saisir votre email" required>

@@ -1,13 +1,8 @@
 <?php
   $hostname = "localhost";
-<<<<<<< HEAD
-  $username = "root";
+   $username = "root";
   $password = "";
-=======
-  $username = "Ahmedreda";
-  $password = "Azertyuiop";
->>>>>>> 5f23df9904a7614814c2b381a608f40c52bd7540
-  $dbname = "bibliotheque";
+   $dbname = "bibliotheque";
 
 
   // PDO c'est plus mieux que mysqli ,parceque mysqli n'est plus utilise et PDO tu peux l'utiliser dans n'import quel base de donne (oracle,mysql,mongogdb....) 

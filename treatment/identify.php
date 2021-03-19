@@ -1,5 +1,5 @@
 <?php
-            include '../config.php';
+            include 'config.php';
             $bdd = $GLOBALS['bdd'];
             $email=$_POST['email'];
             $password=$_POST['password'];
