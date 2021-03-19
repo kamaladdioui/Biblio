@@ -1,0 +1,325 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #f7f7f7;
+        padding: 0 10px;
+    }
+    
+    .wrapper {
+        background: #fff;
+        height: 600px;
+        max-width: 450px;
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+    }
+    
+    .wrapper::-webkit-scrollbar {
+        width: 0px;
+    }
+    
+    .welcomepage h1 {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        color: plum;
+    }
+    
+    .welcomepage h1 p {
+        color: darkgrey;
+        font-size: 18px;
+        display: inline;
+        text-align: center;
+    }
+    
+    .services h3 {
+        padding-left: 15px;
+        color: darkgrey;
+    }
+    
+    .services a {
+        padding-left: 15px;
+        color: plum;
+    }
+    
+    .wrapper .form header h1 {
+        text-align: center;
+        color: darkgrey;
+        padding: 15px 0;
+    }
+    
+    .wrapper .error-text {
+        text-align: center;
+        color: #721c24;
+        border-radius: 5px;
+        background: #f8d7da;
+        border: 1px solid #f5c6cb;
+        margin-bottom: 10px;
+        /*display: none;*/
+    }
+    
+    form .field {
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    form .field label {
+        margin-bottom: 2px;
+        text-align: center;
+        color: black;
+    }
+    
+    .valide-inscription .field label {
+        margin-top: 5%;
+    }
+    
+    form .input input {
+        height: 40px;
+        width: 80%;
+        font-size: 16px;
+        padding-left: 0 20px;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    form .field input {
+        outline: none;
+    }
+    
+    form .button input {
+        height: 45px;
+        border: none;
+        color: #fff;
+        font-size: 17px;
+        background: #333;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 13px;
+    }
+    
+    .valide-inscription .button input {
+        margin-top: 10%;
+    }
+    
+    .form form .field i {
+        position: absolute;
+        right: 60px;
+        top: 70%;
+        color: #ccc;
+        cursor: pointer;
+        transform: translateY(-50%);
+    }
+    
+    .link div {
+        text-align: center;
+    }
+    
+    .link a {
+        padding-left: 160px;
+        color: plum;
+    }
+    
+    .form form .conditions p {
+        padding-left: 50px;
+        padding-top: 5px;
+    }
+    
+    .form form .conditions p a {
+        padding-top: 5px;
+        color: plum;
+    }
+    
+    .infos-perso,
+    .info-livres {
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info {
+        display: flex;
+    }
+    
+    .info p {
+        padding-left: 10px;
+        font-size: 15px;
+        color: teal;
+        font-style: italic;
+    }
+    
+    .wrapper hr {
+        border-top: 4px solid teal;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .info label {
+        padding-left: 20px;
+        color: slategray;
+        font-style: italic;
+        font-size: 15px;
+    }
+    
+    .userspace .info-livres-emprinte h3 {
+        color: slategray;
+        text-align: center;
+        width: 95%;
+        padding-top: 20px;
+        padding-left: 2.5%;
+    }
+    
+    .userspace .info-livres-emprinte a {
+        color: teal;
+    }
+    
+    h4 {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        color: teal;
+        font-size: 30px;
+    }
+    
+    .livres-emprinte .infos-livres {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .livres-emprinte .infos-livres .info {
+        display: flex;
+    }
+    
+    .livres-emprinte hr {
+        border-top: 4px solid teal;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 90%;
+        margin-left: 18px;
+    }
+    
+    .wrapper header {
+        position: relative;
+    }
+    
+    .wrapper .fa-chevron-left {
+        position: absolute;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 30px;
+        color: slategray;
+    }
+    
+    .wrapper button i:hover {
+        color: teal;
+    }
+    
+    .logout input {
+        background-color: slategray;
+        color: white;
+        width: 40%;
+        height: 40px;
+        margin-left: 130px;
+        margin-top: 50px;
+        border-radius: 5px;
+        border-color: teal;
+    }
+    
+    .preespace header h1 {
+        text-align: center;
+        color: darkgrey;
+        padding: 100px 5px;
+    }
+    
+    .preespace input {
+        background-color: plum;
+        color: darkgrey;
+        width: 40%;
+        height: 40px;
+        margin-left: 130px;
+        margin-top: 50px;
+        border-radius: 5px;
+        border-color: white;
+    }
+    
+    .wrapper .adminspace h3 {
+        padding-left: 15px;
+        color: teal;
+        margin-top: 50px;
+    }
+    
+    .wrapper .operations a {
+        padding-left: 15px;
+        margin-bottom: 50px;
+        color: slategray;
+    }
+    
+    .wrapper .operations a:hover {
+        text-decoration: underline;
+    }
+    
+    .recherche {
+        margin: 20px 0;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .recherche input {
+        position: absolute;
+        margin-left: 5px;
+        height: 42px;
+        width: calc(100% - 50px);
+        font-size: 16px;
+        padding: 0 13px;
+        border: 1px solid #e6e6e6;
+        outline: none;
+        border-radius: 5px 0 0 5px;
+        /*pointer-events: none;*/
+        transition: all 0.2s ease;
+    }
+    
+    .recherche button {
+        position: relative;
+        z-index: 1;
+        margin-left: 400px;
+        width: 47px;
+        height: 42px;
+        font-size: 17px;
+        cursor: pointer;
+        border: 1px solid black;
+        background: #fff;
+        color: #333;
+        outline: none;
+        border-radius: 0 5px 5px 0;
+        transition: all 0.2s ease;
+    }
+    
+    .wrapper .option {
+        display: flex;
+    }
+    
+    .wrapper .option label {
+        margin-left: 45px;
+    }
+    
+    .wrapper .option select {
+        margin-left: 5%;
+    }
