@@ -106,10 +106,14 @@
         border: none;
         color: #fff;
         font-size: 17px;
-        background: #333;
+        background: darkgray;
         border-radius: 5px;
         cursor: pointer;
         margin-top: 13px;
+    }
+
+    form .button input:hover{
+        background: #333;
     }
     
     .valide-inscription .button input {
@@ -124,6 +128,11 @@
         cursor: pointer;
         transform: translateY(-50%);
     }
+
+    .form form .field i.active::before{
+        color: #333;
+        content: "\f070";
+      }
     
     .link div {
         text-align: center;

@@ -2,7 +2,6 @@
 <body>
   <div class="wrapper">
     <section class="liste-adherents">
-    afgfsajk
     <header>
         <button>
             <a href="adminspace.php">
@@ -196,9 +195,6 @@
             </div>
             <div class="info">
                 <label for="">situation de compte :</label>
-                <p>active</p>
-                <p>hello every body </p>
-                <p>i'am here</p>
             </div>
         </div>
 
