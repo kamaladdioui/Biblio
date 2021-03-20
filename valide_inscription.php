@@ -19,6 +19,6 @@
       </form>
     </section>
   </div>
-
+  <script src="valide_inscription.js"></script>
 </body>
 </html>

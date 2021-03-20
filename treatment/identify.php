@@ -1,4 +1,5 @@
 <?php
+            session_start();
             include 'config.php';
             $bdd = $GLOBALS['bdd'];
             $email=$_POST['email'];
@@ -12,6 +13,7 @@
                     {
                         if($donnees['mot_de_passe']==$password)
                             {
+                                $_SESSION['unique_id1'] = $donnees['unique_id_admin'];
                                 echo "success1";
                             }
                         else{
@@ -29,9 +31,11 @@
                 {
                     if($donnees['mot_de_passe']==$password && $donnees['statu']=='active')
                         {
+                            $_SESSION['unique_id2'] = $donnees['unique_id_utls'];
                             echo "success2";
                         }
                     elseif($donnees['mot_de_passe']==$password && $donnees['statu']='desactive'){
+                            $_SESSION['unique_id3'] = $donnees['unique_id_utls'];
                             echo "success3";
                     }
                     else{

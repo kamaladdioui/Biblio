@@ -1,5 +1,5 @@
 <?php
-$hostname = "localhost";
+/*$hostname = "localhost";
    $username = "root";
   $password = "";
    $dbname = "bibliotheque";
@@ -14,8 +14,7 @@ $hostname = "localhost";
   catch(Exception $e)
   {
       die('Erreur :'.$e->getMessage());
-  }
-  /*
+  }*/
   $hostname = "localhost";
   $username = "root";
   $password = "";
@@ -24,6 +23,5 @@ $hostname = "localhost";
   if(!$conn){
     echo "Database connection error".mysqli_connect_error();
   }
-*/
 
 ?>

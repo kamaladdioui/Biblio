@@ -1,3 +1,10 @@
+<?php 
+  session_start();
+  include_once "treatment/config.php";
+  if(!isset($_SESSION['unique_id1'])){
+    header("location: login.php");
+  }
+?>
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
@@ -11,6 +18,9 @@
             <a href="valide_inscription.php">validee une inscription <br></a>
             <a href="ajouter_admin.php">ajouter un admin</a>
         </div>
+        <section class="logout">
+      <a href="treatment/logout.php?logout_id=<?php echo $_SESSION['unique_id1']; ?>" class="logout">Logout</a>
+    </section>
     </section>
   </div>
 

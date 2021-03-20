@@ -1,3 +1,13 @@
+<?php 
+  session_start();
+  if(isset($_SESSION['unique_id1'])){
+    header("location: adminspace.php");
+  }elseif(isset($_SESSION['unique_id2'])){
+    header("location: userspace.php");
+  }elseif(isset($_SESSION['unique_id3'])){
+    header("location: preespace.php");
+  }
+?>
 <?php include_once "header.php"; ?>
 <body>
   <div class="wrapper">
