@@ -7,125 +7,13 @@
             <input type="text" placeholder="saisir un nom pour rechercher...">
             <button><i class="fas fa-search"></i></button>
         </div>
-<hr>
-        <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-</div> 
-        <hr>
-        <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-</div>
-        <hr>
-        <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-</div>
-        <hr>
-        <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-</div>
-        <hr>
-        <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-</div>
-<hr>
-            <div class="info-livres">
-            <div class="info">
-                <label for="">Nom du livre :</label>
-                <p>la boite a merveille</p>
-            </div>
-            <div class="info">
-                <label for="">editeur :</label>
-                <p>nom d'editeur</p>
-            </div>
-            <div class="info">
-                <label for="">auteur :</label>
-                <p>nom d'auteur</p>
-            </div>
-            <div class="info">
-                <label for="">situation :</label>
-                <p>disponible</p>
-            </div>
-        </div>
-
-
-<hr>
+         <div class="info-livres">
+        </div> 
     </section>
+    <hr>
+
   </div>
+  <script src="liste_livres.js"></script>
 
 </body>
 </html>
