@@ -40,7 +40,7 @@
         </div>
     </section>
     <section class="logout">
-      <a href="treatment/logout.php?logout_id=<?php echo $row['unique_id_utls']; ?>" class="logout">Logout</a>
+      <a href="treatment/logout.php?logout_id=<?php echo $_SESSION['unique_id2']; ?>" class="logout">Logout</a>
     </section>
   </div>
 

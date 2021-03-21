@@ -1,8 +1,8 @@
 <?php
     session_start();
+    include_once "config1.php";
+    $logout_id = mysqli_real_escape_string($conn, $_GET['logout_id']);
     if(isset($_SESSION['unique_id1'])){
-        include_once "config1.php";
-        $logout_id = mysqli_real_escape_string($conn, $_GET['logout_id']);
         if(isset($logout_id)){
                 session_unset();
                 session_destroy();
@@ -10,9 +10,7 @@
         }else{
             header("location: adminspace.php");
         }
-    }elseif(isset($_SESSION['unique_id2'])){
-        include_once "config.php";
-        $logout_id = mysqli_real_escape_string($conn, $_GET['logout_id']);
+    }else if(isset($_SESSION['unique_id2'])){
         if(isset($logout_id)){
                 session_unset();
                 session_destroy();
@@ -20,9 +18,7 @@
         }else{
             header("location: userspace.php");
         }
-    }elseif(isset($_SESSION['unique_id3'])){
-        include_once "config.php";
-        $logout_id = mysqli_real_escape_string($conn, $_GET['logout_id']);
+    }else if(isset($_SESSION['unique_id3'])){
         if(isset($logout_id)){
                 session_unset();
                 session_destroy();
@@ -31,6 +27,6 @@
             header("location: preespace.php");
         }
     }else{  
-        header("location: login.php");
+        header("location: ../login.php");
     }
 ?>

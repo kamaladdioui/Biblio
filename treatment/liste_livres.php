@@ -6,7 +6,7 @@
     $output = "";
     if(mysqli_num_rows($query) == 0){
         $output .= "vous avez aucun livre";
-    }elseif(mysqli_num_rows($query) > 0){
+    }else if(mysqli_num_rows($query) > 0){
         include_once "data1.php";
     }
     echo $output;
